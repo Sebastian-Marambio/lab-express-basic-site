@@ -1,0 +1,24 @@
+<!-- views/layout.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/styles.css" />
+    <title>Hieronymus Bosch</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <button><a href="/">HOME</a></button>
+            <button><a href="/about">ABOUT</a></button>
+            <button><a href="/photos">PHOTO</a></button>
+            <button><a href="/works">WORK</a></button>
+        </div>   
+    </nav>
+    <h1>Hieronymus Bosch</h1>
+    <p class="subtitle">The greatest painter</p>
+    <%- body %>
+</body>
+</html>

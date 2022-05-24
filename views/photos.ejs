@@ -1,0 +1,9 @@
+<!-- views/photos.ejs -->
+
+    <h2>Images</h2>
+    <% photos.forEach((photo) => { %>
+        <h3><%- photo.title %></h3>
+        <div><img src="<%= photo.image %>" style="width: 400px"></div>
+    <% }) %>
+    
+ 
